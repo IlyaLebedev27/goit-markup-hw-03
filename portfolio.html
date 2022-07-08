@@ -1,59 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
 
 <!-- front start-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
 <!-- front end-->
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link href="./css/style.css" rel="stylesheet">
 
-<link href="./css/style.css" rel="stylesheet">
-
-</head>
+ </head>
 
 <body>
 
         <!--Шапка-->
         <header class="header">
-            <nav  class="header-nav">
-                <a class="webstudio link" href="/"> <span class="accsent">Web</span>Studio</a>
-                <ul class="header-nav-list list">
-                    <li class="header-item"><a class="header-link link" href="./index.html">Студия</a></li>
-                    <li class="header-item"><a class="header-link-current link" href="./portfolio.html">Портфолио </a></li>
-                    <li class="header-item"><a class="header-link link" href="">Контакты </a></li>
-
+            <div class="container">
+                <nav class="header-nav">
+                    <ul class="header-nav-list list">
+                        <li class="header-item"><a class="webstudio link" href="/"> <span class="accsent">Web</span>Studio</a></li>
+                        <li class="header-item"><a class="header-link link" href="./index.html">Студия</a></li>
+                        <li class="header-item"><a class="header-link-current link" href="./portfolio.html">Портфолио </a></li>
+                        <li class="header-item"><a class="header-link link" href="">Контакты </a></li>
+                
+                    </ul>
+                </nav>
+                <ul class="list">
+                    <li>
+                        <a class="header-link header-link-adress link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="header-link header-link-adress link" href="+380961111111">+38 096 111 11 11 </a>
+                    </li>
                 </ul>
-            </nav>
-            <ul class="list">
-                <li>
-                    <a class="header-link header-link-adress link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="header-link header-link-adress link" href="+380961111111">+38 096 111 11 11 </a>
-                </li>
-            </ul>
+            </div>
         </header>
         <!-- blok_hero-->
 
     
     <main>
-        <section class="selector">
+    <section class="selector">
+        <div class="container">
             <h1 hidden> </h1>
-        <ul class="list">
-            <li class="" type="button"><button class="portfolio-btn">Все</button></li>
-            <li class="" type="button"><button class="portfolio-btn">Веб-сайты</button></li>
-            <li class="" type="button"><button class="portfolio-btn">Приложения</button></li>
-            <li class="" type="button"><button class="portfolio-btn">Дизайн</button></li>
-            <li class="" type="button"><button class="portfolio-btn">Маркетинг</button></li>
-    
-        </ul>
+            <ul class="list">
+                <li class="" type="button"><button class="portfolio-btn">Все</button></li>
+                <li class="" type="button"><button class="portfolio-btn">Веб-сайты</button></li>
+                <li class="" type="button"><button class="portfolio-btn">Приложения</button></li>
+                <li class="" type="button"><button class="portfolio-btn">Дизайн</button></li>
+                <li class="" type="button"><button class="portfolio-btn">Маркетинг</button></li>
+            
+            </ul>
+         </div>
+         <div class="container">
         <ul class="list">
             <li>
                 <img src="./portfolio-image/img.jpg" alt="Технокряк,Веб-сайт" width="370" />
@@ -137,13 +146,15 @@
                 </p>
             </li>
         </ul>
+        </div>
     </section>
 
    </main>
 
     <!-- Футер-->
     <footer  class="footer">
-        <a class="webstudio-footer link link" href="/"> <span class="accsent">Web</span>Studio</a>
+       <div class="container">
+        <a class="webstudio-footer link link" href="index.html"> <span class="accsent">Web</span>Studio</a>
         <address>
             <p class="footer-adres">
                 г. Киев, пр-т Леси Украинки, 26
@@ -157,6 +168,7 @@
                 </li>
             </ul>
         </address>
+       </div>
     </footer>
 </body>
 
