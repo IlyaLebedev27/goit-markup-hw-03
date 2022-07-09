@@ -132,32 +132,31 @@ color: var(--accent-txt-cl)
 .hero {
     background-color: var(--dark-bg-cl);
     
+    
 }
 
 
 
 .hero-discription{
-    display:flex;
-    width: 1600px;
-    height: 600px;
-    justify-content: center;
-    align-items: center;
+    padding-top:200px ;
+    padding-bottom: 200px;
+    text-align: center;
+    
+    
     
     
 }
 
 .hero-discription-title{
-    display: flex;
     width: 696px;
-    margin: auto; ;
-    justify-content:space-around;
-    align-self: center;
-
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 30px;
 }
 .hero-container{
     display: flex;
    justify-content: center; 
-   flex-wrap: wrap;
+   
 }
 
 .hero-discription-title {
@@ -172,16 +171,25 @@ color: var(--accent-txt-cl)
 }
 
 .hero-btn{
-    display: block;
-    width: 200px;
+    display:inline-block;
+    min-width: 200px;
     height: 50px;
+    text-align: center;
     cursor:pointer;
     background-color: var(--accent-txt-cl);
     font-family:var(--secondary-font);
     font-weight: 700;
     font-size: 16px;
-    line-height: 2.1;
+    line-height: 1.87;
     color:var(--wight-txt-cl);
+    justify-items: baseline;
+    
+}
+
+.advantege-list{
+    display: flex;
+    width: 215px;
+    
     
 }
 
