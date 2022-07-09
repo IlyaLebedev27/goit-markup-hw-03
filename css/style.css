@@ -133,9 +133,8 @@ color: var(--accent-txt-cl)
     background-color: var(--dark-bg-cl);
     
 }
-.hero-container{
 
-}
+
 
 .hero-discription{
     display:flex;
@@ -150,7 +149,7 @@ color: var(--accent-txt-cl)
 .hero-discription-title{
     display: flex;
     width: 696px;
-    height:120px ;
+    margin: auto; ;
     justify-content:space-around;
     align-self: center;
 
