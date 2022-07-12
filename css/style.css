@@ -55,8 +55,8 @@ margin: 0px;
     padding-left: 15px;
     padding-right: 15px;
 
-    outline:2px solid tomato;
-    outline-offset: -2px;
+    /* outline:2px solid tomato;
+    outline-offset: -2px; */
     
 }
 
@@ -223,8 +223,8 @@ color: var(--accent-txt-cl)
 
 
 .advantege,.team-discription,.selector{
-    outline: 2px solid tomato;
-    outline-offset: -2px;
+    /* outline: 2px solid tomato;
+    outline-offset: -2px; */
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -300,7 +300,9 @@ margin-right: 30px;
     
 }
 
-
+.team-img{
+    margin-bottom: 30px;
+}
 
 .team-card-items:last-child {
     margin-right: 0px;
