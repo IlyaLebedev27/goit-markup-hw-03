@@ -21,6 +21,7 @@ html {
 --dark-bg-cl: #2F303A;
 --wight-bg-cl: #F5F4FA;
 --border-heder-cl:#ECECEC;
+--color-svg-links:#AFB1B8;
 }
 
 
@@ -47,6 +48,11 @@ margin:0px;
 list-style: none;
 padding: 0px;
 margin: 0px;
+}
+
+button{
+    border: none;
+    padding: 0;
 }
 
 .container {
@@ -84,9 +90,52 @@ display:flex;
 align-items: center;
 
  }
+.svg-mail{
+    fill: var(--secondary-txt-cl);
+    width: 12px;
+    height: 16px;
+    margin-right: 10px;
+    
+    
+}
+.svg-mail:hover{
+    fill: var(--accent-txt-cl);
+}
+
+.svg-smartphone {
+    fill: var(--secondary-txt-cl);
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    
+
+}
+
+.svg-smartphone:hover {
+    fill: var(--accent-txt-cl);
+}
 
 
- .hero{
+
+.overlay{
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:linear-gradient( to right,
+     rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)
+    ), url(../image/herofon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+
+
+}
+
+.hero{
     padding-top: 200px;
     padding-bottom: 200px;
  }
@@ -336,6 +385,32 @@ color: var(--main-txt-cl)
     /* margin-bottom: 20px; */
 
 
+.sociale-link{
+    display: flex;
+    justify-content: center;
+}
+
+.sociale-link-list{
+    width: 44px;
+    height: 44px;
+}
+
+.svg-links{
+    fill: var(--color-svg-links);
+}
+
+.svg-links:hover{
+    background-color: var(--accent-txt-cl);
+    fill: var(--wight-txt-cl);
+}
+
+.svg-links{
+    width: 20px;
+    height: 20px;
+    
+    
+    
+}
 
 .name-card{
 font-family:var(--secondary-font);
@@ -364,7 +439,7 @@ font-family:var(--secondary-font);
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
-    
+    margin-bottom: 16px;
         color:var(--secondary-txt-cl);
 }
 
